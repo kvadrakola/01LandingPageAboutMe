@@ -1,0 +1,96 @@
+2026-06-16 09:00:42,051 - INFO - Iniciando LocalWisp...
+2026-06-16 09:00:43,790 - INFO - M\xf3dulos carregados com sucesso.
+2026-06-16 09:00:44,006 - INFO - [STDOUT/STDERR] Using cache found in C:\Users\kvadr/.cache\torch\hub\snakers4_silero-vad_master
+2026-06-16 09:00:44,073 - INFO - [STDOUT/STDERR] Initializing Transcriber (this may take a few seconds)...
+2026-06-16 09:00:44,073 - INFO - [STDOUT/STDERR] Loading Whisper model 'large-v3' on cpu with int8...
+2026-06-16 09:00:44,213 - DEBUG - connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-06-16 09:00:44,273 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000174B2B8EEA0>
+2026-06-16 09:00:44,274 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000174B2BABE50> server_hostname='huggingface.co' timeout=None
+2026-06-16 09:00:44,290 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000174AFB17FE0>
+2026-06-16 09:00:44,290 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-06-16 09:00:44,290 - DEBUG - send_request_headers.complete
+2026-06-16 09:00:44,290 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-06-16 09:00:44,290 - DEBUG - send_request_body.complete
+2026-06-16 09:00:44,290 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-06-16 09:00:44,440 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 16 Jun 2026 07:00:41 GMT'), (b'content-encoding', b'gzip'), (b'ETag', b'W/"11fe-pk65/nTIuTI+K7Ay48cC5Gy32xY"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a30f499-4c3b27e302c8fb43295c6f14;e05c607c-cb93-4719-a70e-bdf118971d2c'), (b'RateLimit', b'"api";r=999;t=140'), (b'RateLimit-Policy', b'"fixed window";"api";q=1000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'vary', b'Accept-Encoding'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 7ddbbb10cc30af8a3cfe8c4f96516774.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'MAD56-P4'), (b'X-Amz-Cf-Id', b'zRu4ZJiNFSJ2YtQuSbQ-vYNllx67kLQ6DdKUhUx_n-r2XLIOw2oTug==')])
+2026-06-16 09:00:44,440 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"
+2026-06-16 09:00:44,440 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-06-16 09:00:44,440 - DEBUG - receive_response_body.complete
+2026-06-16 09:00:44,440 - DEBUG - response_closed.started
+2026-06-16 09:00:44,440 - DEBUG - response_closed.complete
+2026-06-16 09:00:48,220 - INFO - [STDOUT/STDERR] Transcriber ready.
+2026-06-16 09:00:48,220 - INFO - App object initialized. Default language: \U0001f504 AUTO
+2026-06-16 09:00:48,220 - INFO - [STDOUT/STDERR] [DEBUG] Hotkey listener started (Win+Ctrl toggle). Works with ALL devices.
+2026-06-16 09:03:32,065 - INFO - Iniciando LocalWisp...
+2026-06-16 09:03:33,718 - INFO - M\xf3dulos carregados com sucesso.
+2026-06-16 09:03:33,951 - INFO - [STDOUT/STDERR] Using cache found in C:\Users\kvadr/.cache\torch\hub\snakers4_silero-vad_master
+2026-06-16 09:03:34,015 - INFO - [STDOUT/STDERR] Initializing Transcriber (this may take a few seconds)...
+2026-06-16 09:03:34,015 - INFO - [STDOUT/STDERR] Loading Whisper model 'large-v3' on cpu with int8...
+2026-06-16 09:03:34,140 - DEBUG - connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-06-16 09:03:34,203 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F59A24E540>
+2026-06-16 09:03:34,203 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F59A25BBD0> server_hostname='huggingface.co' timeout=None
+2026-06-16 09:03:34,222 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F59A24E480>
+2026-06-16 09:03:34,222 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-06-16 09:03:34,222 - DEBUG - send_request_headers.complete
+2026-06-16 09:03:34,222 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-06-16 09:03:34,222 - DEBUG - send_request_body.complete
+2026-06-16 09:03:34,222 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-06-16 09:03:34,365 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Tue, 16 Jun 2026 07:03:31 GMT'), (b'content-encoding', b'gzip'), (b'ETag', b'W/"11fe-pk65/nTIuTI+K7Ay48cC5Gy32xY"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-6a30f543-2c9c8b8551e121b32bad60c8;83c86043-86fa-4fdb-9c01-6f77bc9ba6e0'), (b'RateLimit', b'"api";r=999;t=270'), (b'RateLimit-Policy', b'"fixed window";"api";q=1000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'vary', b'Accept-Encoding'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 230dfe9eee08385054831343c04fd454.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'MAD56-P4'), (b'X-Amz-Cf-Id', b'0YRPrnhUBT_23PMuX_WSG8oyL4VYBpeZkQT4Qb3fjJ-490UlyYUByA==')])
+2026-06-16 09:03:34,365 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-large-v3/revision/main "HTTP/1.1 200 OK"
+2026-06-16 09:03:34,365 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-06-16 09:03:34,365 - DEBUG - receive_response_body.complete
+2026-06-16 09:03:34,365 - DEBUG - response_closed.started
+2026-06-16 09:03:34,365 - DEBUG - response_closed.complete
+2026-06-16 09:03:38,239 - INFO - [STDOUT/STDERR] Transcriber ready.
+2026-06-16 09:03:38,239 - INFO - App object initialized. Default language: \U0001f504 AUTO
+2026-06-16 09:03:38,242 - INFO - [STDOUT/STDERR] LocalWisp ready. Language: \U0001f504 AUTO
+2026-06-16 09:03:38,242 - INFO - [STDOUT/STDERR] Mode: Toggle (Win+Ctrl = start/stop recording)
+2026-06-16 09:03:38,281 - DEBUG - Importing AvifImagePlugin
+2026-06-16 09:03:38,301 - DEBUG - Importing BlpImagePlugin
+2026-06-16 09:03:38,302 - DEBUG - Importing BmpImagePlugin
+2026-06-16 09:03:38,303 - DEBUG - Importing BufrStubImagePlugin
+2026-06-16 09:03:38,303 - DEBUG - Importing CurImagePlugin
+2026-06-16 09:03:38,304 - DEBUG - Importing DcxImagePlugin
+2026-06-16 09:03:38,305 - DEBUG - Importing DdsImagePlugin
+2026-06-16 09:03:38,309 - DEBUG - Importing EpsImagePlugin
+2026-06-16 09:03:38,310 - DEBUG - Importing FitsImagePlugin
+2026-06-16 09:03:38,310 - DEBUG - Importing FliImagePlugin
+2026-06-16 09:03:38,311 - DEBUG - Importing FpxImagePlugin
+2026-06-16 09:03:38,312 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-06-16 09:03:38,312 - DEBUG - Importing FtexImagePlugin
+2026-06-16 09:03:38,313 - DEBUG - Importing GbrImagePlugin
+2026-06-16 09:03:38,314 - DEBUG - Importing GifImagePlugin
+2026-06-16 09:03:38,314 - DEBUG - Importing GribStubImagePlugin
+2026-06-16 09:03:38,314 - DEBUG - Importing Hdf5StubImagePlugin
+2026-06-16 09:03:38,315 - DEBUG - Importing IcnsImagePlugin
+2026-06-16 09:03:38,317 - DEBUG - Importing IcoImagePlugin
+2026-06-16 09:03:38,318 - DEBUG - Importing ImImagePlugin
+2026-06-16 09:03:38,319 - DEBUG - Importing ImtImagePlugin
+2026-06-16 09:03:38,319 - DEBUG - Importing IptcImagePlugin
+2026-06-16 09:03:38,320 - DEBUG - Importing JpegImagePlugin
+2026-06-16 09:03:38,320 - DEBUG - Importing Jpeg2KImagePlugin
+2026-06-16 09:03:38,320 - DEBUG - Importing McIdasImagePlugin
+2026-06-16 09:03:38,321 - DEBUG - Importing MicImagePlugin
+2026-06-16 09:03:38,321 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-06-16 09:03:38,322 - DEBUG - Importing MpegImagePlugin
+2026-06-16 09:03:38,322 - DEBUG - Importing MpoImagePlugin
+2026-06-16 09:03:38,324 - DEBUG - Importing MspImagePlugin
+2026-06-16 09:03:38,325 - DEBUG - Importing PalmImagePlugin
+2026-06-16 09:03:38,326 - DEBUG - Importing PcdImagePlugin
+2026-06-16 09:03:38,326 - DEBUG - Importing PcxImagePlugin
+2026-06-16 09:03:38,326 - DEBUG - Importing PdfImagePlugin
+2026-06-16 09:03:38,329 - DEBUG - Importing PixarImagePlugin
+2026-06-16 09:03:38,330 - DEBUG - Importing PngImagePlugin
+2026-06-16 09:03:38,330 - DEBUG - Importing PpmImagePlugin
+2026-06-16 09:03:38,330 - DEBUG - Importing PsdImagePlugin
+2026-06-16 09:03:38,331 - DEBUG - Importing QoiImagePlugin
+2026-06-16 09:03:38,331 - DEBUG - Importing SgiImagePlugin
+2026-06-16 09:03:38,332 - DEBUG - Importing SpiderImagePlugin
+2026-06-16 09:03:38,333 - DEBUG - Importing SunImagePlugin
+2026-06-16 09:03:38,333 - DEBUG - Importing TgaImagePlugin
+2026-06-16 09:03:38,334 - DEBUG - Importing TiffImagePlugin
+2026-06-16 09:03:38,334 - DEBUG - Importing WebPImagePlugin
+2026-06-16 09:03:38,351 - DEBUG - Importing WmfImagePlugin
+2026-06-16 09:03:38,351 - DEBUG - Importing XbmImagePlugin
+2026-06-16 09:03:38,352 - DEBUG - Importing XpmImagePlugin
+2026-06-16 09:03:38,353 - DEBUG - Importing XVThumbImagePlugin
