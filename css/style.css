@@ -3,12 +3,15 @@ body {
     font-size: 17px;
     margin: 0;
     padding: 10px;
+    background-color: #12131C;
+    color: #E2E8F0;
 }
 
 n
 nav {
     padding: 20px 10%;
     font-family: "Oswald", sans-serif;
+    
 }
 nav ul {
         display: flex;
@@ -27,12 +30,16 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: #131212;
     font-size: 55px;   /* или 64px, 48px — смотри сам */
     font-weight: 300;  /* жирный */
     text-transform: uppercase;
     padding: 0 30px;   /* отступы слева и справа */
     line-height: 1; 
+    color: #8A94A6;
+}
+
+p a{
+    color: #8A94A6;
 }
 
 .logo { 
