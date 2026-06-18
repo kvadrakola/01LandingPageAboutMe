@@ -2,3 +2,40 @@ body {
     background: #12131C;
     margin: 0;
 }
+h1, h2 {
+color: #FFF;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+p {
+color: #FFF;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.btn {
+    /* 1. Свойства КОРОБКИ (из скрина image_d25706.png) */
+    display: inline-flex;       /* Делает ссылку гибкой коробкой */
+    justify-content: center;    /* Выравнивает текст внутри коробки по центру */
+    align-items: center;        /* Выравнивает текст по вертикали */
+    width: 140px;               /* Ширина из Block model */
+    height: 48px;               /* Высота из Block model */
+    background: rgba(255, 42, 133, 0.61); /* Розовый фон из Styles */
+    border-radius: 15px;        /* Скругление из Styles */
+    text-decoration: none;      /* Убирает стандартное подчеркивание ссылки в браузере */
+
+    /* 2. Свойства ТЕКСТА (из скрина image_d25669.png) */
+    color: #FFF;                /* Белый цвет букв */
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;            /* Размер шрифта */
+    font-weight: 700;           /* Жирность шрифта */
+}
