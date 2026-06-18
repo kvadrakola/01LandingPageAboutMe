@@ -155,5 +155,9 @@ flex-direction: column;
 align-items: center;
 gap: 1px;
 background: #12131C;
+}
 
+footer a {
+    color: #D4AF37;
+    text-decoration: none;
 }
