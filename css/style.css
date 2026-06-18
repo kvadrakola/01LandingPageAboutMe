@@ -32,6 +32,7 @@ line-height: normal;
     height: 70px;
     aspect-ratio: 1 / 1;
     border-radius: 50%; /* Делаем круглым, как в макете */
+    border: 2px solid #E2E8F0; /* Добавляем рамку, как в макете */
     /* Путь к картинке. Замени 1imgmob.png на имя файла твоей аватарки, если оно другое */
     background: url(../img/logo.png) lightgray 50% / cover no-repeat; 
 }
