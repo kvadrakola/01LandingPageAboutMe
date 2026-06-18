@@ -1,7 +1,18 @@
 body {
     background: #12131C;
     margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    }
+// <weight>: Use a value from 300 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+    
 h1, h2 {
 color: #FFF;
 text-align: center;
