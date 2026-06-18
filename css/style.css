@@ -73,6 +73,7 @@ background: url(../img/3imgmobsm.png) lightgray 50% / cover no-repeat;
 #energy {
 aspect-ratio: 49/87;
 background: url(../img/4imgmobsm.png) lightgray 50% / cover no-repeat;
+justify-content: flex-start; 
 }
 
 #contact {
