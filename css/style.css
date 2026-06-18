@@ -54,9 +54,32 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 12px;
+justify-content: flex-end; /* <-- Опускает текст и кнопку вниз секции автоматически */
 }
 
 #hero {
 aspect-ratio: 67/119;
 background: url(../img/1imgmob.png) lightgray 50% / cover no-repeat;
+}
+
+#seo {
+aspect-ratio: 121/215;
+background: url(../img/2imgmob_sm.png) lightgray 50% / cover no-repeat;
+}
+#logic {
+aspect-ratio: 121/215;
+background: url(../img/3imgmobsm.png) lightgray 50% / cover no-repeat;
+}
+#energy {
+aspect-ratio: 49/87;
+background: url(../img/4imgmobsm.png) lightgray 50% / cover no-repeat;
+}
+#contact {
+aspect-ratio: 86/153;
+background: url(../img/5imgmobsm.png) lightgray 50% / cover no-repeat;
+}
+
+.text-block {
+background: rgba(0, 0, 0, 0.69);
+
 }
