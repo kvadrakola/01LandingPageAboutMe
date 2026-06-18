@@ -55,3 +55,8 @@ flex-direction: column;
 align-items: center;
 gap: 12px;
 }
+
+#hero {
+aspect-ratio: 67/119;
+background: url(../img/1imgmob.png) lightgray 50% / cover no-repeat;
+}
