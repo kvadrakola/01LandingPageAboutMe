@@ -74,6 +74,7 @@ background: url(../img/3imgmobsm.png) lightgray 50% / cover no-repeat;
 aspect-ratio: 49/87;
 background: url(../img/4imgmobsm.png) lightgray 50% / cover no-repeat;
 }
+
 #contact {
 aspect-ratio: 86/153;
 background: url(../img/5imgmobsm.png) lightgray 50% / cover no-repeat;
@@ -81,5 +82,23 @@ background: url(../img/5imgmobsm.png) lightgray 50% / cover no-repeat;
 
 .text-block {
 background: rgba(0, 0, 0, 0.69);
+padding: 12px;         /* Отступы внутри плашки, чтобы текст «дышал» */
+    border-radius: 16px;   /* Скругление углов под стать твоей кнопке */
+    box-sizing: border-box;
 
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+form label {
+    color: #EBE4E4;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
