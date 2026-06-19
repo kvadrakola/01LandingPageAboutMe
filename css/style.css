@@ -31,9 +31,8 @@ line-height: normal;
     width: 70px;
     height: 70px;
     aspect-ratio: 1 / 1;
-    border-radius: 50%; /* Делаем круглым, как в макете */
-    border: 2px solid #E2E8F0; /* Добавляем рамку, как в макете */
-    /* Путь к картинке. Замени 1imgmob.png на имя файла твоей аватарки, если оно другое */
+    border-radius: 50%;
+    border: 2px solid #E2E8F0;
     background: url(../img/logo.png) lightgray 50% / cover no-repeat; 
 }
 
@@ -41,8 +40,7 @@ line-height: normal;
     width: 70px;
     height: 70px;
     aspect-ratio: 1 / 1;
-    border-radius: 20%; /* Делаем круглым, как в макете */
-    /* Путь к картинке. Замени 1imgmob.png на имя файла твоей аватарки, если оно другое */
+    border-radius: 20%;
     background: url(../img/Frame3.png) lightgray 50% / cover no-repeat; 
 }
 
@@ -74,21 +72,18 @@ line-height: normal;
 }
 
 .btn {
-    /* 1. Свойства КОРОБКИ (из скрина image_d25706.png) */
-    display: inline-flex;       /* Делает ссылку гибкой коробкой */
-    justify-content: center;    /* Выравнивает текст внутри коробки по центру */
-    align-items: center;        /* Выравнивает текст по вертикали */
-    width: 140px;               /* Ширина из Block model */
-    height: 48px;               /* Высота из Block model */
-    background: rgba(255, 42, 133, 0.61); /* Розовый фон из Styles */
-    border-radius: 15px;        /* Скругление из Styles */
-    text-decoration: none;      /* Убирает стандартное подчеркивание ссылки в браузере */
-
-    /* 2. Свойства ТЕКСТА (из скрина image_d25669.png) */
-    color: #FFF;                /* Белый цвет букв */
+    display: inline-flex;       
+    justify-content: center;    
+    align-items: center;
+    width: 140px;
+    height: 48px;
+    background: rgba(255, 42, 133, 0.61);
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFF;              
     font-family: "Space Grotesk", sans-serif;
-    font-size: 16px;            /* Размер шрифта */
-    font-weight: 700;           /* Жирность шрифта */
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .card-section  {
@@ -99,7 +94,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 12px;
-justify-content: flex-end; /* <-- Опускает текст и кнопку вниз секции автоматически */
+justify-content: flex-end;
 }
 
 #hero {
@@ -127,8 +122,8 @@ background: url(../img/6imgmobsm.png) lightgray 50% / cover no-repeat;
 
 .text-block {
 background: rgba(0, 0, 0, 0.69);
-padding: 12px;         /* Отступы внутри плашки, чтобы текст «дышал» */
-    border-radius: 16px;   /* Скругление углов под стать твоей кнопке */
+padding: 12px;
+    border-radius: 16px;
     box-sizing: border-box;
 
 }
@@ -146,6 +141,12 @@ font-size: 15px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-top: 8px;
+}
+
+form button {
+
+    margin-top: 12px;
 }
 
 footer {
