@@ -126,6 +126,11 @@ aspect-ratio: 86/153;
 background: url(../img/5imgmobsm.png) lightgray 50% / cover no-repeat;
 }
 
+#grdn {
+aspect-ratio: 86/153;
+background: url(../img/6imgmobsm.png) lightgray 50% / cover no-repeat;
+}
+
 .text-block {
 background: rgba(0, 0, 0, 0.69);
 padding: 12px;         /* Отступы внутри плашки, чтобы текст «дышал» */
