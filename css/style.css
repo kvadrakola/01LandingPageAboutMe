@@ -50,14 +50,13 @@ line-height: normal;
     background: url(../img/Frame3.png) lightgray 50% / cover no-repeat; 
 }
 
-/* Коробка, которая держит вместе аватарку и текст на одной линии */
 .profile-group {
     display: flex;
     align-items: center;
-    gap: 12px; /* Расстояние между кружком и текстом */
+    gap: 12px; 
 }
 
-/* Твой элемент KonstaPage (очищенный от мусора) */
+
 .brand-name {
     color: #E2E8F0;
     font-family: "Space Grotesk", sans-serif;
@@ -83,7 +82,7 @@ line-height: normal;
     align-items: center;
     width: 140px;
     height: 48px;
-    background: rgba(255, 42, 133, 0.61);
+    background: rgba(255, 42, 133, 0.75);
     border-radius: 15px;
     text-decoration: none;
     color: #FFF;              
@@ -127,7 +126,7 @@ background: url(../img/6imgmobsm.png) lightgray 50% / cover no-repeat;
 }
 
 .text-block {
-background: rgba(0, 0, 0, 0.69);
+background: rgba(0, 0, 0, 0.75);
 padding: 12px;
     border-radius: 16px;
     box-sizing: border-box;
