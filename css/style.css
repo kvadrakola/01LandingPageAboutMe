@@ -103,31 +103,25 @@ justify-content: flex-end; /* <-- Опускает текст и кнопку в
 }
 
 #hero {
-aspect-ratio: 67/119;
 background: url(../img/1imgmob.png) lightgray 50% / cover no-repeat;
 }
 
 #seo {
-aspect-ratio: 121/215;
 background: url(../img/2imgmob_sm.png) lightgray 50% / cover no-repeat;
 }
 #logic {
-aspect-ratio: 121/215;
 background: url(../img/3imgmobsm.png) lightgray 50% / cover no-repeat;
 }
 #energy {
-aspect-ratio: 49/87;
 background: url(../img/4imgmobsm.png) lightgray 50% / cover no-repeat;
 justify-content: flex-start; 
 }
 
 #contact {
-aspect-ratio: 86/153;
 background: url(../img/5imgmobsm.png) lightgray 50% / cover no-repeat;
 }
 
 #grdn {
-aspect-ratio: 86/153;
 background: url(../img/6imgmobsm.png) lightgray 50% / cover no-repeat;
 }
 
